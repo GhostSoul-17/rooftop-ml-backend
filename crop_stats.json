@@ -1,0 +1,166 @@
+{
+  "chilli": {
+    "display_name": "Chilli",
+    "N": {
+      "min": 100,
+      "max": 200,
+      "mean": 150.0
+    },
+    "P": {
+      "min": 40,
+      "max": 100,
+      "mean": 70.3
+    },
+    "K": {
+      "min": 170,
+      "max": 280,
+      "mean": 222.2
+    },
+    "temperature": {
+      "min": 22.0,
+      "max": 38.0,
+      "mean": 30.0
+    },
+    "humidity": {
+      "min": 40.0,
+      "max": 72.0,
+      "mean": 54.8
+    },
+    "ph": {
+      "min": 5.0,
+      "max": 7.0,
+      "mean": 6.0
+    },
+    "advice": {
+      "N_low": "Apply nitrogen-rich fertilizer (urea or ammonium sulphate) to boost chilli growth.",
+      "N_high": "Reduce nitrogen input \u2014 excess causes leafy growth at the expense of yield in chilli.",
+      "P_low": "Apply superphosphate or bone meal to improve root development in chilli.",
+      "K_low": "Apply potassium sulphate to improve chilli fruit quality and disease resistance.",
+      "temp_high": "Provide shade netting \u2014 chilli is experiencing heat stress above its optimal range.",
+      "temp_low": "Protect chilli from cold \u2014 consider row covers or relocating the grow bag indoors."
+    }
+  },
+  "ladyfinger": {
+    "display_name": "Lady Finger",
+    "N": {
+      "min": 110,
+      "max": 210,
+      "mean": 159.3
+    },
+    "P": {
+      "min": 35,
+      "max": 95,
+      "mean": 65.5
+    },
+    "K": {
+      "min": 175,
+      "max": 300,
+      "mean": 233.6
+    },
+    "temperature": {
+      "min": 24.0,
+      "max": 40.0,
+      "mean": 32.0
+    },
+    "humidity": {
+      "min": 55.0,
+      "max": 85.0,
+      "mean": 69.9
+    },
+    "ph": {
+      "min": 5.5,
+      "max": 7.5,
+      "mean": 6.4
+    },
+    "advice": {
+      "N_low": "Apply nitrogen-rich fertilizer (urea or ammonium sulphate) to boost ladyfinger growth.",
+      "N_high": "Reduce nitrogen input \u2014 excess causes leafy growth at the expense of yield in ladyfinger.",
+      "P_low": "Apply superphosphate or bone meal to improve root development in ladyfinger.",
+      "K_low": "Apply potassium sulphate to improve ladyfinger fruit quality and disease resistance.",
+      "temp_high": "Provide shade netting \u2014 ladyfinger is experiencing heat stress above its optimal range.",
+      "temp_low": "Protect ladyfinger from cold \u2014 consider row covers or relocating the grow bag indoors."
+    }
+  },
+  "spinach": {
+    "display_name": "Spinach",
+    "N": {
+      "min": 80,
+      "max": 160,
+      "mean": 122.1
+    },
+    "P": {
+      "min": 30,
+      "max": 80,
+      "mean": 55.4
+    },
+    "K": {
+      "min": 150,
+      "max": 260,
+      "mean": 200.0
+    },
+    "temperature": {
+      "min": 15.0,
+      "max": 29.7,
+      "mean": 22.1
+    },
+    "humidity": {
+      "min": 50.0,
+      "max": 80.0,
+      "mean": 64.8
+    },
+    "ph": {
+      "min": 5.8,
+      "max": 7.5,
+      "mean": 6.5
+    },
+    "advice": {
+      "N_low": "Apply nitrogen-rich fertilizer (urea or ammonium sulphate) to boost spinach growth.",
+      "N_high": "Reduce nitrogen input \u2014 excess causes leafy growth at the expense of yield in spinach.",
+      "P_low": "Apply superphosphate or bone meal to improve root development in spinach.",
+      "K_low": "Apply potassium sulphate to improve spinach fruit quality and disease resistance.",
+      "temp_high": "Provide shade netting \u2014 spinach is experiencing heat stress above its optimal range.",
+      "temp_low": "Protect spinach from cold \u2014 consider row covers or relocating the grow bag indoors."
+    }
+  },
+  "tomato": {
+    "display_name": "Tomato",
+    "N": {
+      "min": 130,
+      "max": 240,
+      "mean": 177.3
+    },
+    "P": {
+      "min": 50,
+      "max": 120,
+      "mean": 78.9
+    },
+    "K": {
+      "min": 190,
+      "max": 320,
+      "mean": 251.6
+    },
+    "temperature": {
+      "min": 20.0,
+      "max": 35.0,
+      "mean": 27.7
+    },
+    "humidity": {
+      "min": 45.0,
+      "max": 75.0,
+      "mean": 59.2
+    },
+    "ph": {
+      "min": 5.5,
+      "max": 7.0,
+      "mean": 6.2
+    },
+    "advice": {
+      "N_low": "Apply nitrogen-rich fertilizer (urea or ammonium sulphate) to boost tomato growth.",
+      "N_high": "Reduce nitrogen input \u2014 excess causes leafy growth at the expense of yield in tomato.",
+      "P_low": "Apply superphosphate or bone meal to improve root development in tomato.",
+      "K_low": "Apply potassium sulphate to improve tomato fruit quality and disease resistance.",
+      "temp_high": "Provide shade netting \u2014 tomato is experiencing heat stress above its optimal range.",
+      "temp_low": "Protect tomato from cold \u2014 consider row covers or relocating the grow bag indoors."
+    }
+  }
+}
