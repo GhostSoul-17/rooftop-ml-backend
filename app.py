@@ -19,8 +19,8 @@ CORS(app)
 
 # ─── Firebase Config ────────────────────────────────────────────
 FIREBASE_BASE = "https://rooftop-horticulture-default-rtdb.asia-southeast1.firebasedatabase.app"
-DB_SECRET     = "fYdJU6CJofeGhkz9zZA5mkIbN1M9YNzLUnkmLiie"  # replace with your actual secret
-
+import os
+DB_SECRET = os.environ.get("DB_SECRET", "fYdJU6CJofeGhkz9zZA5mkIbN1M9YNzLUnkmLiie")
 # ─── Load Model & Metadata ──────────────────────────────────────
 print("Loading ML model...")
 with open("crop_model.pkl", "rb") as f:
