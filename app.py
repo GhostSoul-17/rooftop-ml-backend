@@ -22,8 +22,8 @@ CORS(app)
 
 # ─── Config ─────────────────────────────────────────────────────
 FIREBASE_BASE   = "https://rooftop-horticulture-default-rtdb.asia-southeast1.firebasedatabase.app"
-DB_SECRET       = os.environ.get("DB_SECRET", "your-secret-key-here")
-WEATHER_API_KEY = os.environ.get("WEATHER_API_KEY", "your-weather-key-here")
+DB_SECRET       = os.environ.get("DB_SECRET", "fYdJU6CJofeGhkz9zZA5mkIbN1M9YNzLUnkmLiie")
+WEATHER_API_KEY = os.environ.get("WEATHER_API_KEY", "b42c4437194a42406695832949c70ad5")
 LAT             = 13.0827   # Chennai
 LON             = 80.2707   # Chennai
 
