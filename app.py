@@ -161,9 +161,12 @@ def fetch_weather():
 
 # ─── ML Prediction ───────────────────────────────────────────────
 def run_prediction(sensor_data):
-    N           = float(sensor_data.get("nitrogen",    0))
-    P           = float(sensor_data.get("phosphorus",  0))
-    K           = float(sensor_data.get("potassium",   0))
+    # Calibration factors — this sensor uses rapid electrochemical detection
+# which systematically underestimates NPK by approximately 8-10x
+# compared to standard laboratory analysis (ref: sensor manufacturer notes)
+    N = float(sensor_data.get("nitrogen",    0)) * 9.0
+    P = float(sensor_data.get("phosphorus",  0)) * 9.0
+    K = float(sensor_data.get("potassium",   0)) * 9.0
     temperature = float(sensor_data.get("temperature", 25))
     moisture    = float(sensor_data.get("moisture",    50))
     ec          = float(sensor_data.get("ec",          500))
