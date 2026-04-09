@@ -288,18 +288,18 @@ def get_crops():
     return jsonify({"status": "success", "crops": crop_stats})
 
 # ─── Start ───────────────────────────────────────────────────────
+# ── Startup — runs whether launched by gunicorn or directly ──
+print("Fetching initial weather data...")
+weather_data = fetch_weather()
+if weather_data:
+    firebase_put("weather", weather_data)
+    print(f"Weather ready: {weather_data['current']['description']}")
+else:
+    print("Weather fetch failed — check API key")
+
+thread = Thread(target=background_loop, daemon=True)
+thread.start()
+
 if __name__ == "__main__":
-    # Fetch weather immediately on startup
-    print("Fetching initial weather data...")
-    weather_data = fetch_weather()
-    if weather_data:
-        firebase_put("weather", weather_data)
-        print(f"Weather ready: {weather_data['current']['description']}")
-    else:
-        print("Weather fetch failed — check API key")
-
-    thread = Thread(target=background_loop, daemon=True)
-    thread.start()
-
     print("Flask server starting on http://localhost:5000")
     app.run(host="0.0.0.0", port=5000, debug=False)
